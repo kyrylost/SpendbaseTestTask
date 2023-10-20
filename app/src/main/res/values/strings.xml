@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SpendbaseTestTask</string>
+    <string name="underlined_see_all"> <u>See All</u> </string>
+</resources>

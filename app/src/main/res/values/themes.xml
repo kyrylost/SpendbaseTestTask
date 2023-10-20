@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SpendbaseTestTask" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.SpendbaseTestTask" parent="Base.Theme.SpendbaseTestTask" />
+
+    <style name="HeadlineLarge" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/neutral800</item>
+        <item name="android:fontFamily">@font/inter_800</item>
+    </style>
+
+    <style name="LabelSmall" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/neutral500</item>
+        <item name="android:fontFamily">@font/inter_500</item>
+    </style>
+
+    <style name="LabelMedium" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/neutral500</item>
+        <item name="android:fontFamily">@font/inter_500</item>
+    </style>
+
+    <style name="LabelLarge" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/neutral800</item>
+        <item name="android:fontFamily">@font/inter_500</item>
+    </style>
+
+    <style name="HeadlineMedium" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/neutral900</item>
+        <item name="android:fontFamily">@font/inter_800</item>
+    </style>
+
+    <style name="TitleMedium" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/neutral800</item>
+        <item name="android:fontFamily">@font/inter_600</item>
+    </style>
+
+
+    <style name="bottomNavigationTextStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">@font/inter_300</item>
+    </style>
+
+    <style name="bottomNavigationActiveTextStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">@font/inter_300</item>
+    </style>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg">#FFF6F7F9</color>
+    <color name="neutral900">#FF21222E</color>
+    <color name="neutral800">#FF2B2C39</color>
+    <color name="neutral500">#FF7E8493</color>
+    <color name="neutral400">#FFB3B6BE</color>
+    <color name="neutral200">#FFE7E9EB</color>
+    <color name="red500">#FFEC5454</color>
+    <color name="green500">#FF00AC4F</color>
+    <color name="blue500">#FF1460F3</color>
+    <color name="card_border">#FF555661</color>
+</resources>

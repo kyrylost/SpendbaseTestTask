@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainScreen">
+
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="kyrylost.apps.spendbasetesttask.view.MainScreen"
+        android:label="MainScreen" >
+        <action
+            android:id="@+id/action_mainScreen_to_cardDataScreen"
+            app:destination="@id/cardDataScreen" />
+
+        <argument
+            android:name="appLogoData"
+            app:argType="string" />
+        <argument
+            android:name="details"
+            app:argType="string" />
+        <argument
+            android:name="lastDigits"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/cardDataScreen"
+        android:name="kyrylost.apps.spendbasetesttask.view.CardDataScreen"
+        android:label="CardDataScreen" >
+        <action
+            android:id="@+id/action_cardDataScreen_to_mainScreen"
+            app:destination="@id/mainScreen" />
+
+        <argument
+            android:name="appLogoData"
+            app:argType="string" />
+        <argument
+            android:name="details"
+            app:argType="string" />
+        <argument
+            android:name="lastDigits"
+            app:argType="string" />
+    </fragment>
+</navigation>
